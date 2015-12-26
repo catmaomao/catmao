@@ -47,6 +47,7 @@ public class NavigationActivity extends AppCompatActivity implements NavigationV
         ButterKnife.inject(this);
         setSupportActionBar(toolbar);
 
+        /*底部悬浮按钮*/
         FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
